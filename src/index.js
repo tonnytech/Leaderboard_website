@@ -17,7 +17,6 @@ refreshButton.addEventListener('click', () => {
     .then((data) => {
       displayData.innerHTML = '';
       data.result.forEach((data) => {
-        console.log(data);
         const row = document.createElement('tr');
         const name = document.createElement('td');
         name.innerHTML = data.user;
