@@ -40,7 +40,13 @@ This project that has the leader board setup in it.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+  - HTML
+  - CSS
+  - JavaScript
 
+  ### Key Features
+  - single page web application
+  - Using API to store and update data
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -56,24 +62,28 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 - IDE(code editor) like: **Vscode**, **Sublime**, etc. 
+
 - [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
+
+ - [Nodes.js](https://nodejs.org/en/)
+
+ - Github account and github authorization enabled in your local machine
 
 ### Setup
 
-1. Download the **Zip** file or clone the repo with:
-```bash
-git clone https://github.com/teitonny/Leaderboard_website.git
+1. Clone this repository to your desired folder
+
 ```
-3. To access cloned directory run:
-```bash
+git clone https://github.com/teitonny/Leaderboard_website.git
 cd Leaderboard_website
 ```
-3. Open it with the live server
+
 
 ### Install
 
-> To install linters and other project's dependencies run:
-```bash
+> Install this project with:
+
+```
 npm install
 ```
 
@@ -82,7 +92,7 @@ npm install
 To run the project, execute the following command:
 #### Dev Server
 ```sh
-    npm start
+    npm run serve
 ```
 #### Build
 ``` npm run build
@@ -124,8 +134,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add book**
-- [ ] **Remove book**
+- [ ] **use API**
+- [ ] **make it responsive**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -153,6 +163,5 @@ I would like to thank Microverse
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
-And also is <a href="https://creativecommons.org/licenses/">Creative Commons License </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
