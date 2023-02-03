@@ -8,7 +8,7 @@ const recentScoreTitle = document.querySelector('.title');
 let flashId;
 
 const flashText = () => {
-  recentScoreTitle.className = recentScoreTitle.className === "title" ? "my-title" : "title";
+  recentScoreTitle.className = recentScoreTitle.className === 'title' ? 'my-title' : 'title';
 };
 
 const Change = () => {
