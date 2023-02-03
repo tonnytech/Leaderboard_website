@@ -95,7 +95,9 @@ To run the project, execute the following command:
     npm run serve
 ```
 #### Build
-``` npm run build
+```
+npm run build
+
 ```
 
 ### Run tests
@@ -149,6 +151,10 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support
+
+If you like this project please STAR the project repo.
 
 <!-- ACKNOWLEDGEMENTS -->
 
