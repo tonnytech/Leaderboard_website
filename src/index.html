@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <title>Leader board</title>
   </head>
   <body>
@@ -17,17 +18,23 @@
       <section class="add-and-display">
         <div class="display-info">
           <div class="menu">
-            <div class="title">Recent scores</div>
-            <button class="Refresh">Refresh</button>
+            <div class="title animate">Recent scores</div>
+            <button class="Refresh"> <i class="icon-refresh"></i> Refresh</button>
           </div>
+          <div class="complete-table">
+            <div class="table-title">
+              <div class="User-title">User</div>
+              <div class="score-title">Score</div>
+            </div>
           <table class="table"></table>
+          </div>
         </div>
         <div class="add-info">
           <form action="" class="form">
-            <div class="add-scores">Add your score</div>
-            <input type="text" class="name" />
-            <input type="text" class="score" />
-            <button type="submit">Submit</button>
+            <div class="add-scores">Add score</div>
+            <input type="text" class="name input" name="name" placeholder="Enter name"/>
+            <input type="text" class="score input" name = "score" placeholder="Enter score"/>
+            <button type="submit" class="submit">Submit</button>
           </form>
         </div>
       </section>
