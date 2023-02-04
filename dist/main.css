@@ -9,12 +9,17 @@
   gap: 4rem;
   justify-content: center;
   align-items: center;
+  border: 1px solid black;
+  background-color: #e5b8f4;
+  height: 100vh;
+  width: 100%;
 }
 
 .menu {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  justify-content: space-around;
+  align-items: center;
   font-size: 30px;
   margin-bottom: 10px;
   margin-top: 20px;
@@ -25,17 +30,109 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  height: 30rem;
+  overflow-y: scroll;
 }
 
 .form {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.add-scores {
+  background-color: #ce7777;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
 }
 
 .page-title {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #ce7777;
+  position: fixed;
+  width: 100%;
 }
+
+.Refresh {
+  border: none;
+  padding: 5px;
+  background: #ce7777;
+}
+
+.table-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  font-size: 30px;
+  border: 1px solid #ccc;
+}
+
+.table-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  background: #ce7777;
+}
+
+.name-column {
+  margin-right: 2rem;
+  width: 10rem;
+  font-size: 25px;
+  overflow-wrap: break-word;
+  text-overflow: clip;
+}
+
+.icon-user {
+  font-size: 20px;
+}
+
+.icon-container {
+  margin-right: 2rem;
+}
+
+.title {
+  color: #ce7777;
+  padding: 7px;
+  border-radius: 5%;
+}
+
+.my-title {
+  color: #e5b8f4;
+  padding: 7px;
+  border-radius: 5%;
+}
+
+.input {
+  font-size: 20px;
+}
+
+.submit {
+  width: 50%;
+  font-size: 20px;
+}
+
+/* .animate {
+  background: red;
+  white-space: nowrap;
+  -webkit-animation: rightThenLeft 4s linear;
+  animation: rightThenLeft 4s linear;
+  margin-right: 10000px;
+}
+
+@keyframes rightThenLeft {
+  0%   {margin-right:100%;}
+  50%  {margin-right:0;}
+  100% {margin-right:100%;}
+} */
 
