@@ -51,7 +51,7 @@ This project that has the leader board setup in it.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-To see the demo version, you can can back soon. I'm still working on it <a href=""> click</a>
+ <a href="https://teitonny.github.io/Leaderboard_website/dist/"> click here to see live version</a>
 
 <!-- GETTING STARTED -->
 
