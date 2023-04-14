@@ -126,7 +126,7 @@ Example:
 ## 👥 Authors <a name="authors"></a>
 
 1. Tonny Tei
-- GitHub: [@teitonny](https://github.com/teitonny)
+- GitHub: [@teitonny](https://github.com/tonnytech)
 - Twitter: [@tonnytei](https://twitter.com/tonnytei)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/tonny-tei-38a4771a0/)
 
